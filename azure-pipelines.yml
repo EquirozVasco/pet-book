@@ -19,7 +19,6 @@ steps:
 - task: SonarCloudPrepare@1
   inputs:
     SonarCloud: 'sonarCloud'
-    organization: 'equirozvasco'
     scannerMode: 'CLI'
     configMode: 'file'
 
