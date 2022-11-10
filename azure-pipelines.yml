@@ -1,8 +1,7 @@
 trigger:
 - master
 
-pool:
-  pool: esteban
+pool: miMaquina
 
 steps:
 - task: NodeTool@0
